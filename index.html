@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<div id="main">
+    <div class="container">
+
+        <div class="quiz-container">
+            <h1>Quiz Game</h1>
+           
+            
+            <div id="question-container">
+
+
+                <p id="question-text"></p>
+                <p id="mad">* All Questions are mandatory </p>
+
+                <div id="options-container">
+                   
+                </div>
+
+
+            </div>
+
+
+            <div class="button">
+                <button id="prev-button" class="btn" disabled>Previous</button>
+                <button id="next-button" class="btn">Next</button>
+                <button id="submit-button" class="btn">Submit</button>
+            </div>
+          
+        </div>
+
+
+
+        <div id="score-container">
+            <p>You Score: <span id="score">0</span></p>
+           <div> <span class="material-symbols-outlined"
+            onclick="refresh()">
+            refresh
+            </span></div>
+        </div>
+
+    </div>
+</div>
+
+
+    <script src="hello.js"></script>
+</body>
+</html>
